@@ -12,6 +12,9 @@ public interface CalcInterface {
 	
 	public void zerarMostrador();
 	
+	public void imprimirNaTela();
+		
+	
 	
 
 }
