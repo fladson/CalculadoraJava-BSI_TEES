@@ -86,13 +86,13 @@ JavaRunOptions         = -classpath $(ClassPath)
 PurifyOptions          =
 
 JavaPackages = \
-          bsi/calc/view \
-	  bsi/calc/logic \
+          view \
+	  logic \
 
 JavaLibraries =
 
 JavaMainClass = \
-          bsi.calc.view.App
+          view.App
 
 RunParameters =
   

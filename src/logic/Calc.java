@@ -15,6 +15,7 @@ public class Calc {
 	
 	public String DecimalToHexa(Integer decimal){
 		return Integer.toString(decimal, 16);
+	
 	}
 	
 
