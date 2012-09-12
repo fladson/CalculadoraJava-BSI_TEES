@@ -1,9 +1,9 @@
 package logic;
 
-//Decimal, Octal, Bin‡rio e Hexadecimal
-//Realizar as opera›es de soma, subtra‹o, divis‹o, divis‹o interira, e resto;
+//Decimal, Octal, Binï¿½rio e Hexadecimal
+//Realizar as operaï¿½ï¿½es de soma, subtraï¿½ï¿½o, divisï¿½o, divisï¿½o interira, e resto;
 
-public class Calculadora {
+public class Calc {
 	
 	public String DecimalToOctal(Integer decimal){
 		return Integer.toString(decimal, 8);
