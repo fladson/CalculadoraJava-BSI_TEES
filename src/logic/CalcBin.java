@@ -1,10 +1,10 @@
 package logic;
 
-import view.CalcInterface;
 
 public class CalcBin implements CalcInterface {
 
 	@Override
+	//Realiza a soma de dos parametros Binários
 	public void somar() {
 		// TODO Auto-generated method stub
 		
@@ -42,6 +42,13 @@ public class CalcBin implements CalcInterface {
 
 	@Override
 	public void mostrarResultado() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void calcular(String string, String string2, String string3,
+			String string4) {
 		// TODO Auto-generated method stub
 		
 	}

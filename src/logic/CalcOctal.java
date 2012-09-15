@@ -1,6 +1,5 @@
 package logic;
 
-import view.CalcInterface;
 
 public class CalcOctal implements CalcInterface {
 
@@ -42,6 +41,13 @@ public class CalcOctal implements CalcInterface {
 
 	@Override
 	public void mostrarResultado() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void calcular(String string, String string2, String string3,
+			String string4) {
 		// TODO Auto-generated method stub
 		
 	}

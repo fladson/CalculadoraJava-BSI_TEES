@@ -17,6 +17,12 @@ public class Calc {
 		return Integer.toString(decimal, 16);
 	
 	}
+
+	public static void calcular(String string, String string2, String string3,
+			String string4) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 }

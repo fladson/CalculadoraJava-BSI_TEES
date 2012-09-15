@@ -1,4 +1,4 @@
-package view;
+package logic;
 
 public interface CalcInterface {
 	/**
@@ -40,6 +40,9 @@ public interface CalcInterface {
 	 * Método que realizará o calculo necessário
 	 */
 	public void mostrarResultado();
+
+	public void calcular(String string, String string2, String string3,
+			String string4);
 		
 	
 		
