@@ -1,7 +1,7 @@
 package view;
 import logic.CalcBin;
-import logic.CalcInterface;
-public class App {
+import logic.Calc;
+public class CalcApp {
 
 	/**
 	 * @param args

@@ -1,7 +1,7 @@
 package logic;
 
 
-public class CalcHexa implements CalcInterface {
+public class CalcHexa implements Calc {
 
 	@Override
 	public void somar() {

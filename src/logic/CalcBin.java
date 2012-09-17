@@ -1,7 +1,7 @@
 package logic;
 
 
-public class CalcBin implements CalcInterface {
+public class CalcBin implements Calc {
 
 	@Override
 	//Realiza a soma de dos parametros Binários
