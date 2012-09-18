@@ -1,6 +1,6 @@
 package logic;
 
-public class CalcDecimal implements CalcInterface {
+public class CalcDecimal implements Calc {
 
 	@Override
 	public void somar() {
