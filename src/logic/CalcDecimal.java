@@ -2,28 +2,7 @@ package logic;
 
 public class CalcDecimal implements Calc {
 
-	@Override
-	public void somar() {
-		// TODO Auto-generated method stub
-		
-	}
 
-	public void subtrair() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void multiplicar() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void dividir() {
-		// TODO Auto-generated method stub
-		
-	}
 
 	@Override
 	public void zerarMostrador() {
@@ -46,6 +25,30 @@ public class CalcDecimal implements Calc {
 	@Override
 	public void calcular(String string, String string2, String string3,
 			String string4) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void somar(String num1, String num2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void subtrair(String num1, String num2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void multiplicar(String num1, String num2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void dividir(String num1, String num2) {
 		// TODO Auto-generated method stub
 		
 	}
