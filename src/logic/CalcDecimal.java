@@ -8,7 +8,6 @@ public class CalcDecimal implements Calc {
 		
 	}
 
-	@Override
 	public void subtrair() {
 		// TODO Auto-generated method stub
 		

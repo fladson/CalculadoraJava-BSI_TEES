@@ -92,7 +92,7 @@ JavaPackages = \
 JavaLibraries =
 
 JavaMainClass = \
-          view.App
+          view.CalcApp
 
 RunParameters =
   
@@ -110,7 +110,7 @@ JavadocOptions         = -d $(DocsDir) \
   			 -use \
   			 -splitIndex \
   			 -version \
-  			 -link file:$(JAVA_HOME)/docs/api \
+	 		 -link file:$(JAVA_HOME)/docs/api \
   			 -windowtitle $(JavadocWindowTitle) \
   			 -doctitle $(JavadocDocTitle) \
   			 -header $(JavadocHeader) \
@@ -122,8 +122,24 @@ javadoc :
 	$(JavadocGenerator) $(JavadocOptions) @$(DEV_ROOT)/packages.tmp
 	$(Delete) $(DEV_ROOT)/packages.tmp
 	$(Print) Done JavaDoc.
-
+  
 jar :
-	$(Print) Gerando o Jar.
+	JAVAC = javac
+	JAVACFLAGS = 
+	SRC=logic/Calc.java \
+	logic/CalcOctal.java \
+	logic/CalcBin.java \
+	logic/CalcHexa.java \
+	logic/CalcDecimal.java \
+   	view/CalcApp.java \
+	CLS= $(SRC:.java=.class)
+	jar cfe /Logic Calc.class CalcOctal.class CalcBin.class CalcHexa.class CalcDecimal.class
+	jar cfe /View CalcApp.class
+
+all:  $(CLS)
+
+
+
+
 
 default: javadoc

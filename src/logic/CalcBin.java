@@ -5,28 +5,28 @@ public class CalcBin implements Calc {
 
 	@Override
 	//Realiza a soma de dos parametros em Decimal
-	public void somar() {
+	public void somar(String num1, String num2) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	//Realiza a subtração dos parametros em Decimal
-	public void subtrair() {
+	public void subtrair(String num1, String num2) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	// Realiza a multiplicação dos parametros em Decimal
-	public void multiplicar() {
+	public void multiplicar(String num1, String num2) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	// Realiza a divisão dos parametros em Decimal
-	public void dividir() {
+	public void dividir(String num1, String num2) {
 		// TODO Auto-generated method stub
 		
 	}
