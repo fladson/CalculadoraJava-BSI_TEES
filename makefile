@@ -60,7 +60,8 @@ Delete                 = rm -fr
 StaticArchiver         = ar
 DynamicArchiver        = gcc
 FortranCompiler        = f77
-JavaCompiler           = $(JAVA_HOME)/bin/javac
+JCC           = $(JAVA_HOME)/bin/javac
+JFLAGS = -g
 JavaArchiver           = $(JAVA_HOME)/bin/jar
 JarSigner              = $(JAVA_HOME)/bin/jarsigner
 JavadocGenerator       = $(JAVA_HOME)/bin/javadoc
@@ -141,5 +142,23 @@ all:  $(CLS)
 
 
 
+
+default: Calc.class CalcBin.class CalcHexa.class CalcOctal.class CalcApp.class
+
+Calc.class: Calc.java
+	$(JCC) $(JFLAGS) Calc.java
+	
+Calc.class: CalcBin.java
+	$(JCC) $(JFLAGS) CalcBin.java
+	
+Calc.class: CalcHexa.java
+	$(JCC) $(JFLAGS) CalcHexa.java
+	
+Calc.class: CalcOctal.java
+	$(JCC) $(JFLAGS) CalcOctal.java
+	
+Calc.class: CalcApp.java
+	$(JCC) $(JFLAGS) CalcApp.java
+	
 
 default: javadoc
